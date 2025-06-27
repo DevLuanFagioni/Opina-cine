@@ -1,0 +1,521 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <html lang="pt-br">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Matheus Borio, Paula Braz, Madu Serafim">
+    <meta name="description" content="Site para filmes e series.">
+    <meta http-equiv="content-language" content="pt-br">
+    <meta http-equiv="content-type" content="text/html; charset-UTF-8">
+    <meta name="copyright" content="© 2023 Matheus Borio, Paula Braz, Madu Serafim">
+    <meta name="keywords" content="filmes, series, projeto de formatura">
+    <meta name="robots" content="index">
+    <meta http-equiv="imagetoolbar" content="no">
+    <meta name="rating" content="general">
+    <title>Opina Cine</title>
+    <link rel="icon" href="img/logo1.png">
+
+    <!-- Link para o CSS-->
+    <link rel="stylesheet" href="css/style.css">
+    <!-- Link Swiper CSS-->
+    <link rel="stylesheet" href="css/swiper-bundle.min.css">
+    <!-- Box Icons: https://boxicons.com -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+</head>
+
+<body>
+    <!-- Header -->
+    <header>
+        <!-- Nav -->
+        <div class="nav container">
+            <!-- Logo -->
+            <a href="index.html" class="logo">
+                <img src="img/logo1.png" alt="" class="logo-img">
+            </a>
+            <!-- Barra de Procura -->
+            <div class="search-box">
+                <input type="search" name="" id="search-input" placeholder="Procurar filme">
+                <i class='bx bx-search'></i>
+            </div>
+            <!-- Usuario -->
+            <a href="#" class="user">
+                <img src="img/user.jpg" alt="" class="user-img">
+            </a>
+            <!-- Notificação -->
+            <a href="#" class="bell">
+                <i class='bx bx-bell'></i>
+            </a>
+            <!-- Barra de Navegação -->
+            <div class="navbar">
+                <a href="#home" class="nav-link nav-active"> <!-- deixa em relevo -->
+                    <i class='bx bx-building-house'></i>
+                    <span class="nav-link-title">Home</span>
+                </a>
+                <a href="#populares" class="nav-link nav-populares">
+                    <i class='bx bx-star'></i>
+                    <span class="nav-link-title">Populares</span>
+                </a>
+                <a href="#filmes" class="nav-link">
+                    <i class='bx bx-compass'></i>
+                    <span class="nav-link-title">Explorar</span>
+                </a>
+                <a href="#serie" class="nav-link">
+                    <i class='bx bx-camera-movie'></i>
+                    <span class="nav-link-title">Séries</span>
+                </a>
+                <a href="pagina-play.html" class="nav-link">
+                    <i class='bx bx-movie'></i>
+                    <span class="nav-link-title">Filmes</span>
+                </a>
+            </div>
+        </div>
+    </header>
+    <!-- Home -->
+    <main>
+
+        <section class="home container" id="home">
+            <!-- Home Imagem -->
+            <img src="img/rebel-moon-home.jpg" alt="" class="home-img">
+            <!-- Home Text -->
+            <div class="home-text">
+                <h1 class="home-title">Rebel Moon</h1>
+                <p>Lançamento 22 de Dezembro</p>
+                <a href="#" class="watch-btn btn-i">
+                    <i class='bx bx-movie-play' ></i>
+                    <span>Assistir ao trailer</span>
+                </a>
+            </div>
+        </section>
+        <!-- Home Final -->
+        <!-- Populares Section Começo -->
+        <section class="populares container" id="populares">
+            <!-- Heading -->
+            <div class="heading">
+                <h2 class="heading-title">Filmes Populares</h2>
+                <!-- Swiper Botão -->
+                <div class="swiper-btn">
+                    <div class="swiper-button-prev"></div>
+                    <div class="swiper-button-next"></div>
+                </div>
+            </div>
+            <!-- Content / Swiper auto: -->
+        <div class="populares-content swiper">
+            <div class="swiper-wrapper">
+                <!-- Filmes Box 1 -->
+                <div class="swiper-slide">
+                    <div class="filme-box">                           
+                        <img src="img/wall-1.jpg" alt="" class="filme-box-img">
+                        <div class="box-text">
+                            <h2 class="filme-title">John Wick 4</h2>
+                            <span class="filme-type">Suspense/Ação</span>
+                            <a href="#" class="watch-btn play-btn">                 
+                                <i class='bx bx-movie-play' ></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Filmes Box 2 -->
+                <div class="swiper-slide">
+                    <div class="filme-box">
+                        <img src="img/wall-2.jpg" alt="" class="filme-box-img">
+                        <div class="box-text">
+                            <h2 class="filme-title">Fast X</h2>
+                            <span class="filme-type">Aventura/Ação</span>
+                            <a href="#" class="watch-btn play-btn">                 
+                                <i class='bx bx-movie-play' ></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Filmes Box 3 -->
+                <div class="swiper-slide">
+                    <div class="filme-box">
+                        <img src="img/wall-3.jpg" alt="" class="filme-box-img">
+                        <div class="box-text">
+                            <h2 class="filme-title">Spider-Man: <br>Across the Spider-Verse</h2>
+                            <span class="filme-type">Animação/Aventura</span>
+                            <a href="#" class="watch-btn play-btn">                 
+                                <i class='bx bx-movie-play' ></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Filmes Box 4 -->
+                <div class="swiper-slide">
+                    <div class="filme-box">
+                        <img src="img/wall-4.jpg" alt="" class="filme-box-img">
+                        <div class="box-text">
+                            <h2 class="filme-title">The Super Mario Bros. <br>Movie</h2>
+                            <span class="filme-type">Animação/Comédia</span>
+                            <a href="#" class="watch-btn play-btn">                 
+                                <i class='bx bx-movie-play' ></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Filmes Box 5 -->
+                <div class="swiper-slide">
+                    <div class="filme-box">
+                        <img src="img/wall-5.jpg" alt="" class="filme-box-img">
+                        <div class="box-text">
+                            <h2 class="filme-title">Ant-Man and the Wasp: <br>Quantumania</h2>
+                            <span class="filme-type">Comédia/Aventura</span>
+                            <a href="#" class="watch-btn play-btn">                 
+                                <i class='bx bx-movie-play' ></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Filmes Box 6 -->
+                <div class="swiper-slide">
+                    <div class="filme-box">
+                        <img src="img/wall-6.jpg" alt="" class="filme-box-img">
+                        <div class="box-text">
+                            <h2 class="filme-title">Guardians of the Galaxy <br>Vol. 3</h2>
+                            <span class="filme-type">Comédia/Aventura</span>
+                            <a href="#" class="watch-btn play-btn">                 
+                                <i class='bx bx-movie-play' ></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Filmes Box 7 -->
+                <div class="swiper-slide">
+                    <div class="filme-box">
+                        <img src="img/wall-7.jpg" alt="" class="filme-box-img">
+                        <div class="box-text">
+                            <h2 class="filme-title">M3GAN</h2>
+                            <span class="filme-type">Suspense/Terror</span>
+                            <a href="#" class="watch-btn play-btn">                 
+                                <i class='bx bx-movie-play' ></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Filmes Box 8 -->
+                <div class="swiper-slide">
+                    <div class="filme-box">
+                        <img src="img/wall-8.jpg" alt="" class="filme-box-img">
+                        <div class="box-text">
+                            <h2 class="filme-title">Transformers</h2>
+                            <span class="filme-type">Ficção Científica/Ação</span>
+                            <a href="#" class="watch-btn play-btn">                 
+                                <i class='bx bx-movie-play' ></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Filmes Box 9 -->
+                <div class="swiper-slide">
+                    <div class="filme-box">
+                        <img src="img/wall-9.jpg" alt="" class="filme-box-img">
+                        <div class="box-text">
+                            <h2 class="filme-title">Evil Dead Rise</h2>
+                            <span class="filme-type">Terror</span>
+                            <a href="#" class="watch-btn play-btn">                 
+                                <i class='bx bx-movie-play' ></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+
+        </div>
+    </section>
+    <!-- Populares Section Final -->
+    <!-- Filmes Section Começo -->
+    <section class="filmes container" id="filmes">
+        <!-- Heading -->                                                
+        <div class="heading">
+            <h2 class="heading-title">Filmes Recentes</h2>
+        </div>
+        <!-- Filmes Content -->
+        <div class="filmes-content">
+            <!-- Filmes Box 1 -->
+            <div class="filme-box">
+                <img src="img/filme1.jpg" alt="" class="filme-box-img">
+                <div class="box-text">
+                    <h2 class="filme-title">Indiana Jones <br>and the Dial of Destiny</h2>
+                    <span class="filme-type">Ação/Aventura</span>
+                    <a href="pagina-play.html" class="watch-btn play-btn">                 
+                        <i class='bx bx-movie-play' ></i>
+                    </a>
+                </div>
+            </div>
+            <!-- Filmes Box 2 -->
+            <div class="filme-box">                                     
+                <img src="img/filme2.jpg" alt="" class="filme-box-img">
+                <div class="box-text">
+                    <h2 class="filme-title">Teenage Mutant Ninja Turtles: <br>Mutant Mayhem</h2>
+                    <span class="filme-type">Animação/Aventura</span>
+                    <a href="#" class="watch-btn play-btn">                 
+                        <i class='bx bx-movie-play' ></i>
+                    </a>
+                </div>
+            </div>
+            <!-- Filmes Box 3 -->
+            <div class="filme-box">                                    
+                <img src="img/filme3.jpg" alt="" class="filme-box-img">
+                <div class="box-text">
+                    <h2 class="filme-title">Meg 2: The Trench</h2>
+                    <span class="filme-type">Aventura/Ação</span>
+                    <a href="#" class="watch-btn play-btn">                 
+                        <i class='bx bx-movie-play' ></i>
+                    </a>
+                </div>
+            </div>
+            <!-- Filmes Box 4 -->
+            <div class="filme-box">                                    
+                <img src="img/filme4.jpg" alt="" class="filme-box-img">
+                <div class="box-text">
+                    <h2 class="filme-title">The Last Voyage of the Demeter</h2>
+                    <span class="filme-type">Terror</span>
+                    <a href="#" class="watch-btn play-btn">                 
+                        <i class='bx bx-movie-play' ></i>
+                    </a>
+                </div>
+            </div>
+            <!-- Filmes Box 5 -->
+            <div class="filme-box">                                    
+                <img src="img/filme5.jpg" alt="" class="filme-box-img">
+                <div class="box-text">
+                    <h2 class="filme-title">The Boogeyman</h2>
+                    <span class="filme-type">Terror/Mistério</span>
+                    <a href="#" class="watch-btn play-btn">                 
+                        <i class='bx bx-movie-play' ></i>
+                    </a>
+                </div>
+            </div>
+            <!-- Filmes Box 6 -->
+            <div class="filme-box">                                    
+                <img src="img/filme6.jpg" alt="" class="filme-box-img">
+                <div class="box-text">
+                    <h2 class="filme-title">Elemental</h2>
+                    <span class="filme-type">Animação/Comédia</span>
+                    <a href="#" class="watch-btn play-btn">                 
+                        <i class='bx bx-movie-play' ></i>
+                    </a>
+                </div>
+            </div>
+            <!-- Filmes Box 7 -->
+            <div class="filme-box">                                    
+                <img src="img/filme7.jpg" alt="" class="filme-box-img">
+                <div class="box-text">
+                    <h2 class="filme-title">No Hard Feelings</h2>
+                    <span class="filme-type">Comédia</span>
+                    <a href="#" class="watch-btn play-btn">                 
+                        <i class='bx bx-movie-play' ></i>
+                    </a>
+                </div>
+            </div>
+            <!-- Filmes Box 8 -->
+            <div class="filme-box">                                    
+                <img src="img/filme8.jpg" alt="" class="filme-box-img">
+                <div class="box-text">
+                    <h2 class="filme-title">Haunting of the Queen Mary</h2>
+                    <span class="filme-type">Drama/Mistério</span>
+                    <a href="#" class="watch-btn play-btn">                 
+                        <i class='bx bx-movie-play' ></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Filmes Section Final -->
+    <!-- Séries Section Começo -->
+    <section class="filmes container" id="serie">
+        <!-- Heading -->                                                
+        <div class="heading">
+            <h2 class="heading-title">Séries Recentes</h2>
+        </div>
+        <!-- Filmes Content -->
+        <div class="filmes-content">
+            <!-- Filmes Box 1 -->
+            <div class="filme-box">
+                <img src="img/serie1.jpg" alt="" class="filme-box-img">
+                <div class="box-text">
+                    <h2 class="filme-title">Adventure Time&#58; <br>Fionna & Cake </h2>
+                    <span class="filme-type">Animação/Aventura</span>
+                    <a href="pagina-play.html" class="watch-btn play-btn">                 
+                        <i class='bx bx-movie-play' ></i>
+                    </a>
+                </div>
+            </div>
+            <!-- Filmes Box 2 -->
+            <div class="filme-box">                                     
+                <img src="img/serie2.jpg" alt="" class="filme-box-img">
+                <div class="box-text">
+                    <h2 class="filme-title">One Piece</h2>
+                    <span class="filme-type">Comédia/Ação</span>
+                    <a href="#" class="watch-btn play-btn">                 
+                        <i class='bx bx-movie-play' ></i>
+                    </a>
+                </div>
+            </div>
+            <!-- Filmes Box 3 -->
+            <div class="filme-box">                                    
+                <img src="img/serie3.jpg" alt="" class="filme-box-img">
+                <div class="box-text">
+                    <h2 class="filme-title">Ahsoka</h2>
+                    <span class="filme-type">Drama/Aventura</span>
+                    <a href="#" class="watch-btn play-btn">                 
+                        <i class='bx bx-movie-play' ></i>
+                    </a>
+                </div>
+            </div>
+            <!-- Filmes Box 4 -->
+            <div class="filme-box">                                    
+                <img src="img/serie4.jpg" alt="" class="filme-box-img">
+                <div class="box-text">
+                    <h2 class="filme-title">The Last of Us</h2>
+                    <span class="filme-type">Drama/Aventura</span>
+                    <a href="#" class="watch-btn play-btn">                 
+                        <i class='bx bx-movie-play' ></i>
+                    </a>
+                </div>
+            </div>
+            <!-- Filmes Box 5 -->
+            <div class="filme-box">                                    
+                <img src="img/serie5.jpg" alt="" class="filme-box-img">
+                <div class="box-text">
+                    <h2 class="filme-title">Secret Invasion</h2>
+                    <span class="filme-type">Drama/Ação</span>
+                    <a href="#" class="watch-btn play-btn">                 
+                        <i class='bx bx-movie-play' ></i>
+                    </a>
+                </div>
+            </div>
+            <!-- Filmes Box 6 -->
+            <div class="filme-box">                                    
+                <img src="img/serie6.jpg" alt="" class="filme-box-img">
+                <div class="box-text">
+                    <h2 class="filme-title">Mayfair Witches</h2>
+                    <span class="filme-type">Fantasia/Terror</span>
+                    <a href="#" class="watch-btn play-btn">                 
+                        <i class='bx bx-movie-play' ></i>
+                    </a>
+                </div>
+            </div>
+            <!-- Filmes Box 7 -->
+            <div class="filme-box">                                    
+                <img src="img/serie7.jpg" alt="" class="filme-box-img">
+                <div class="box-text">
+                    <h2 class="filme-title">Gotham Knights</h2>
+                    <span class="filme-type">Crime/Ação</span>
+                    <a href="#" class="watch-btn play-btn">                 
+                        <i class='bx bx-movie-play' ></i>
+                    </a>
+                </div>
+            </div>
+            <!-- Filmes Box 8 -->
+            <div class="filme-box">                                    
+                <img src="img/serie8.jpg" alt="" class="filme-box-img">
+                <div class="box-text">
+                    <h2 class="filme-title">FUBAR</h2>
+                    <span class="filme-type">Suspense/Ação</span>
+                    <a href="#" class="watch-btn play-btn">                 
+                        <i class='bx bx-movie-play' ></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    </main>
+    <footer>
+        <div class="lista-a-z">
+            <div class="lista-a">
+                <span>A</span>
+            </div>
+            <div class="lista-a">
+                <span>B</span>
+            </div>
+            <div class="lista-a">
+                <span>C</span>
+            </div>
+            <div class="lista-a">
+                <span>D</span>
+            </div>
+            <div class="lista-a">
+                <span>E</span>
+            </div>
+            <div class="lista-a">
+                <span>F</span>
+            </div>
+            <div class="lista-a">
+                <span>G</span>
+            </div>
+            <div class="lista-a">
+                <span>H</span>
+            </div>
+            <div class="lista-a">
+                <span>I</span>
+            </div>
+            <div class="lista-a">
+                <span>J</span>
+            </div>
+            <div class="lista-a">
+                <span>K</span>
+            </div>
+            <div class="lista-a">
+                <span>L</span>
+            </div>
+            <div class="lista-a">
+                <span>M</span>
+            </div>
+            <div class="lista-a">
+                <span>N</span>
+            </div>
+            <div class="lista-a">
+                <span>O</span>
+            </div>
+            <div class="lista-a">
+                <span>P</span>
+            </div>
+            <div class="lista-a">
+                <span>Q</span>
+            </div>
+            <div class="lista-a">
+                <span>R</span>
+            </div>
+            <div class="lista-a">
+                <span>S</span>
+            </div>
+            <div class="lista-a">
+                <span>T</span>
+            </div>
+            <div class="lista-a">
+                <span>U</span>
+            </div>
+            <div class="lista-a">
+                <span>V</span>
+            </div>
+            <div class="lista-a">
+                <span>W</span>
+            </div>
+            <div class="lista-a">
+                <span>X</span>
+            </div>
+            <div class="lista-a">
+                <span>Y</span>
+            </div>
+            <div class="lista-a">
+                <span>Z</span>
+            </div>
+        </div>
+        <!-- Copyright -->
+        <div class="copyright">
+            <p>&#169; Grupo7 Todos os direitos reservados!</p>
+        </div>
+    </footer>
+    
+    <!-- LInk Swiper JS -->
+    <script src="js/swiper-bundle.min.js"></script>
+    <!-- Links do JS -->
+    <script src="js/main.js"></script>
+</body>
+</html>
